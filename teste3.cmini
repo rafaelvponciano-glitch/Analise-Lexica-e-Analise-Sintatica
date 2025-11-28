@@ -1,0 +1,49 @@
+
+
+int main (){
+
+
+    // Declaração de variáveis
+    int n;
+    int i;
+    int soma;
+    int f;
+
+    // Leitura
+    read n;
+
+    // IF simples
+    if (n == 0) {
+        print 0;
+    }
+
+    // WHILE
+    while (n < 0) {
+        print n;
+        read n;
+    }
+
+    // Atribuições
+    soma = 0;
+    f = 1;
+
+    // FOR
+    for (i = 1; i <= n; i = i + 1) {
+        soma = soma + i;
+        f = f * i;
+    }
+
+    // IF/ELSE com lógica
+    if (soma > 10 && n != 0) {
+        print soma;
+    } else {
+        print n;
+    }
+
+    // Bloco interno
+    {
+        int temp;
+        temp = soma + n;
+        print temp;
+    }
+}

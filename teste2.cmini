@@ -1,0 +1,15 @@
+//if e else
+
+
+
+int main(){
+int s;
+
+if (n > 10 && n != 0) {
+    print n;
+} else {
+    print s;
+}
+
+
+}
